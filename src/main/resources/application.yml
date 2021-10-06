@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://amol-test.us.auth0.com/
+          jwk-set-uri: https://amol-test.us.auth0.com/.well-known/jwks.json
+auth0:
+  audience:
+    https://spring-security-demo.com/api
